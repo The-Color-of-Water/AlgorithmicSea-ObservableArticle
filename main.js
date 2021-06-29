@@ -7,4 +7,4 @@ import notebook from "https://api.observablehq.com/@vamoss/algorithmic-sea.js?v=
 // Load the notebook, observing its cells with a default Inspector that simply
 // renders the value of every cell into the provided DOM node.
 const runtime = new Runtime();
-const main = runtime.module(notebook, Inspector.into(document.body));
+const main = runtime.module(notebook, Inspector.into(document.getElementById("container")));

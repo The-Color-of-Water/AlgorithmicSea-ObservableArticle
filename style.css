@@ -1,17 +1,27 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    color: #1b1e23;
+    font-size: 17px;
 }
 
-.observablehq{
+p{
+    max-width: 640px;
+}
+
+#container{
+    padding: 0 30px;
+}
+
+.observablehq {
     max-width: 1024px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0;
+    position: relative;
 }
 img {
     max-width: 100%;
 }
 
-/*
-"Source Serif Pro",Iowan Old Style,Apple Garamond,Palatino Linotype,Times New Roman,"Droid Serif",Times,serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol
-
-*/
+.observablehq canvas, .observablehq svg{
+    max-width: 100%;
+}
