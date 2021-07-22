@@ -1,7 +1,17 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Serif Pro', sans-serif;
     color: #1b1e23;
     font-size: 17px;
+    line-height: 1.5;
+}
+
+a {
+    color: #3182bd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 p{
@@ -17,6 +27,7 @@ p{
     margin: 0 auto;
     padding: 0;
     position: relative;
+    margin-bottom: 17px;
 }
 img {
     max-width: 100%;
@@ -24,4 +35,8 @@ img {
 
 .observablehq canvas, .observablehq svg{
     max-width: 100%;
+}
+
+.observablehq--inspect{
+    display: none;
 }
